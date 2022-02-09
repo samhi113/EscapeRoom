@@ -330,7 +330,7 @@ public class EscapeRoom {
     }
 
     public void punchDoor(){
-        if (currentPlace.toLowerCase() == "dresser"){
+        if (currentPlace.toLowerCase() == "door"){
             textLabel.setText("The Door. OW! What the hell was I thinking?");
             thingsPunched += 1;
             checkPunchedAmount();
